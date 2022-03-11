@@ -7,7 +7,7 @@ Rails.application.configure do
   config.cache_classes = true
 
   config.active_storage.service = :digitalocean
-  config.active_storage.variant_processor = :minimagick
+  config.active_storage.variant_processor = :mini_magick
 
   # If a default host is specifically defined then it's used otherwise the app is
   # assumed to be a Heroku review app. Note that `Hash#fetch` is used defensively
